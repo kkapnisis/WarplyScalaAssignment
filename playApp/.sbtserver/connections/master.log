@@ -1,0 +1,13 @@
+New log file opened at Sun Apr 02 21:36:25 GMT+02:00 2017 by 3220@EvilSentientAI
+Taking next connection to: 50391
+New client attempting to connect on port: 50392-50391
+  Address = /192.168.1.71:50391
+This client on port 50392 has uuid bfbb5ee5-a65a-4b92-8cca-0cdcdc23c2b8 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-bfbb5ee5-a65a-4b92-8cca-0cdcdc23c2b8
+Taking next connection to: 50391
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 3220@EvilSentientAI logs at Sun Apr 02 21:39:25 GMT+02:00 2017, goodbye.

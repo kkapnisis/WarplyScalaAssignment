@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mConnectionAndQuerySpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mConnecting and querying a Cassandra database[0m[0m
+[0m[[0minfo[0m] [0m[31m- should just work *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9042 (com.datastax.driver.core.exceptions.InvalidQueryException: unconfigured table schema_keyspaces))[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.datastax.driver.core.ControlConnection.reconnectInternal(ControlConnection.java:199)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.datastax.driver.core.ControlConnection.connect(ControlConnection.java:80)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1199)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.datastax.driver.core.Cluster.init(Cluster.java:154)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.datastax.driver.core.Cluster.connect(Cluster.java:230)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at common.utils.cassandra.Helper$.createSessionAndInitKeyspace(Helper.scala:14)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at common.utils.cassandra.ConnectionAndQuerySpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ConnectionAndQuerySpec.scala:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at common.utils.cassandra.ConnectionAndQuerySpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(ConnectionAndQuerySpec.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at common.utils.cassandra.ConnectionAndQuerySpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(ConnectionAndQuerySpec.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
